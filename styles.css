@@ -1,0 +1,49 @@
+h1 {
+  color: #00805e;
+  text-align: center;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.text {
+  flex: 1;
+  margin-left: 5rem;
+}
+
+.text h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.image {
+  flex: 1;
+  max-width: 50%;
+}
+
+.cta-button {
+  background-color: #007bff; /* Change to your desired button color */
+  color: #fff; /* Change to your desired text color */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  height: 1.5rem;
+}
+
+.hero-img {
+  border-radius: 20px;
+  height: 80vh;
+}

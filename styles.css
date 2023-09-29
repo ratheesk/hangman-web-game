@@ -32,7 +32,7 @@ h1 {
 }
 
 .cta-button {
-  background-color: #007bff; /* Change to your desired button color */
+  background-color: #039034; /* Change to your desired button color */
   color: #fff; /* Change to your desired text color */
   padding: 10px 20px;
   text-decoration: none;
@@ -53,7 +53,9 @@ h1 {
     flex-direction: column; /* Stack items on top of each other for mobile */
     text-align: center;
   }
-
+  .text {
+    margin: auto;
+  }
   .image {
     max-width: 100%;
   }

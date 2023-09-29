@@ -47,3 +47,22 @@ h1 {
   border-radius: 20px;
   height: 80vh;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack items on top of each other for mobile */
+    text-align: center;
+  }
+
+  .image {
+    max-width: 100%;
+  }
+  .hero-img {
+    max-width: 80%;
+    height: auto;
+  }
+  .cta-button {
+    margin-top: 20px; /* Add spacing between the text and button */
+    margin-bottom: 2rem;
+  }
+}
